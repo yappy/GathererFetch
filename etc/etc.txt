@@ -1,0 +1,17 @@
+参考用 Web API (google で最初に出てきたやつ)
+https://api.mtgdb.info/
+
+http://api.mtgdb.info/cards/[multiverseid]
+とか
+
+
+
+Gatherer
+http://gatherer.wizards.com/Pages/Default.aspx
+
+言語設定は下の方に小さくある
+http://gatherer.wizards.com/Pages/Language.aspx
+
+実際には Cookie 設定してるだけ(何も送らないと英語になる)
+key   = CardDatabaseSettings
+value = 1=ja-JP
