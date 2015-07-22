@@ -74,11 +74,11 @@ public final class Parser {
 		String extracted;
 
 		// Card Name
-		/*
-		 * <div id="ctl00_ctl00_ctl00_MainContent_SubContent_SubContent_nameRow"
-		 * class="row"> <div class="label"> Card Name:</div> <div class="value">
-		 * Tasigur, the Golden Fang</div> </div>
-		 */
+		// <div id="ctl00_ctl00_ctl00_MainContent_SubContent_SubContent_nameRow"
+		// class="row">
+		// <div class="label"> Card Name:</div>
+		// <div class="value"> Tasigur, the Golden Fang</div>
+		// </div>
 		next = searchAndDiscard(html,
 				"<div id=\"ctl00_ctl00_ctl00_MainContent_SubContent_SubContent_nameRow\" class=\"row\">",
 				ind);
